@@ -1,0 +1,23 @@
+{
+  "name": "tp4_Nuxt",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mysql2": "^3.19.1",
+    "nuxt": "^4.4.2",
+    "nuxt-server-utils": "^0.0.7",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.42"
+  }
+}
